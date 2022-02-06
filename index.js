@@ -1,4 +1,4 @@
-const {soma, subtracao, multiplicacao, divisao, erro} = require('./calculadora')
+const {soma, subtracao, multiplicacao, divisao} = require('./calculadora')
 const inquirer = require('inquirer')
 
 inquirer.prompt([
